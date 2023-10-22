@@ -6,7 +6,7 @@
     <title>Unity WebGL Player | MongleNyang_CustomizeSite</title>
   </head>
   <body>
-    <div style="width: 100; height: 100%;">
+    <div style="width: 100%; height: 100%;">
       <canvas id="unity-canvas" width=auto height=auto></canvas>
     </div>
     <script src="Build/customizeSiteBuild.loader.js"></script>
@@ -19,7 +19,7 @@
         meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
         document.getElementsByTagName('head')[0].appendChild(meta);
       } else {
-        
+
         canvas.style.width = "100%";
         canvas.style.height = "100%";
       }
